@@ -307,7 +307,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 For issues or questions:
 - Check the troubleshooting section
-- Review the API documentation at https://docs.anthropic.com
 - Open an issue in the repository
 
 ## 🎯 Roadmap
