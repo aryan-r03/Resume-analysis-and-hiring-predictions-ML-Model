@@ -3,7 +3,6 @@
 An AI-powered resume analyzer that predicts your acceptance chances at top tech companies using Claude AI.
 
 ![ResumeAI Predictor](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react)
-![Claude AI](https://img.shields.io/badge/Claude-Sonnet%204-8E75B2?style=flat)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## ✨ Features
