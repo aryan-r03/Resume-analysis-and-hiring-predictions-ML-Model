@@ -323,10 +323,7 @@ For issues or questions:
 
 ## ⭐ Acknowledgments
 
-- Powered by [Anthropic Claude AI](https://www.anthropic.com)
 - UI inspired by modern SaaS dashboards
 - Fonts: DM Sans & Space Grotesk from Google Fonts
 
 ---
-
-**Made with ⚡ by developers, for developers**
