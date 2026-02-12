@@ -1,13 +1,12 @@
 # ResumeAI Predictor 🚀
 
-An AI-powered resume analyzer that predicts your acceptance chances at top tech companies using Claude AI.
+An AI-powered resume analyzer that predicts your acceptance chances at top tech companies .
 
 ![ResumeAI Predictor](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## ✨ Features
 
-- **AI-Powered Analysis**: Uses Claude Sonnet 4 to analyze resumes with expert-level insights
 - **Company Predictions**: Get acceptance probability scores for 20+ top tech companies
 - **Detailed Feedback**: Receive specific strengths, weaknesses, and improvement suggestions
 - **Custom Companies**: Add any company you want to evaluate beyond the default list
@@ -66,7 +65,7 @@ npm start
 
 ### API Setup
 
-The app uses the Anthropic Claude API. You have two options:
+The app uses APIs. You have two options:
 
 #### Option 1: Direct API Calls (Current Implementation)
 The app currently makes direct calls to the Anthropic API. **Note**: This exposes your API in the browser, which is not secure for production.
@@ -90,7 +89,6 @@ app.post('/api/analyze-resume', async (req, res) => {
       'anthropic-version': '2023-06-01'
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-20250514',
       max_tokens: 1000,
       messages: [{ role: 'user', content: prompt }]
     })
@@ -154,7 +152,7 @@ resume-predictor-refactored.jsx
 │   ├── getScoreColor - Score-to-color mapping
 │   └── createPrompt - Build AI prompt
 ├── API Service
-│   └── analyzeResume - Call Claude API
+│   └── analyzeResume - Call API
 ├── Custom Hooks
 │   ├── useCompanySelection - Manage company selection
 │   └── useFileUpload - Handle file uploads
@@ -238,7 +236,7 @@ For production deployment:
 
 ## 📊 API Response Format
 
-The Claude API returns a JSON structure:
+The API returns a JSON structure:
 
 ```json
 {
