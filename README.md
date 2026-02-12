@@ -31,7 +31,6 @@ An AI-powered resume analyzer that predicts your acceptance chances at top tech 
 ### Prerequisites
 
 - Node.js 18+ installed
-- Anthropic API access (available at https://api.anthropic.com)
 - React development environment
 
 ### Installation
